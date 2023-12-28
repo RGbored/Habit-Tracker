@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.habit {
+  width: 80%;
+  margin: 5px;
+}
+
+.habit-wrapper {
+  width: 40cqw;
+}
+
+.delete-button {
+  background-color: rgb(87, 19, 19);
+}
+
+.delete-button:hover {
+  background-color: rgb(167, 35, 35);
+  border-color: #ff0000;
+}
+
+.done {
+  background-color: rgb(6, 104, 6);
+}
+
+.notDone {
+  background-color: rgb(167, 35, 35);
+}
+
+.pending {
+  background-color: gray;
+}
+
+td{
+  padding: 10px;
+}
